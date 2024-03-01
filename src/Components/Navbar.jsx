@@ -12,6 +12,7 @@ function Navbar() {
         <div className='navbar'>
             <div className='navbar__logo'>
                 <img src={logo} alt="logo" />
+                <h2>ClickShop</h2>
             </div>
             <nav>
                 <ul className='navbar__list'>

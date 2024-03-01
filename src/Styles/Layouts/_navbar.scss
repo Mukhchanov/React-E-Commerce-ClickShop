@@ -1,3 +1,4 @@
+
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -8,7 +9,7 @@
         align-items: center;
         gap: 10px;
         img {
-            width: 150px;
+            width: 70px;
             cursor: pointer;
         }
     }
@@ -26,6 +27,7 @@
                 font-size: 15px;
                 a {
                     text-decoration: none;
+                    color: #7A24B4;
                 }
                 hr {
                     border: none;
