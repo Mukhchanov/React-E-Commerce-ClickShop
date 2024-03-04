@@ -1,8 +1,6 @@
 .hero {
     background: linear-gradient(180deg, #B087F7, #e1ffea22 60%);
     display: flex;
-    position: relative;
-    z-index: -1;
     &__left {
         width: 50%;
         display: flex;
@@ -44,7 +42,7 @@
                 transition: all .2s;
                 &:hover {
                     color: #fff;
-                    background: #7A24B4;
+                    background-color: #7A24B4;
                 }
             }
         }
