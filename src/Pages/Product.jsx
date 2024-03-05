@@ -3,6 +3,8 @@ import { ShopContext } from '../Context/ShopContext';
 import { useParams } from 'react-router-dom';
 import Breadcrum from '../Components/Breadcrum';
 import ProductDisplay from '../Components/ProductDisplay';
+import DescriptionBox from '../Components/DescriptionBox';
+import RelatedProducts from '../Components/RelatedProducts';
 
 function Product() {
 
@@ -14,6 +16,8 @@ function Product() {
         <div className='product container-fluid'>
             {product && <Breadcrum product={product} />}
             {product && <ProductDisplay product={product} />}
+            <DescriptionBox />
+            <RelatedProducts />
         </div>
     )
 };

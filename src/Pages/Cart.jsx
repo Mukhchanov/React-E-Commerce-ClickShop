@@ -1,9 +1,11 @@
 import React from 'react';
+import '../Styles/Layouts/_cart.scss';
+import CartItems from '../Components/CartItems';
 
 function Cart() {
     return (
-        <div>
-            
+        <div className='cart'>
+            <CartItems />
         </div>
     )
 };
