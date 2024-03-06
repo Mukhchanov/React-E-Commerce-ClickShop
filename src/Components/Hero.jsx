@@ -1,7 +1,6 @@
 import React from 'react';
 import '../Styles/Layouts/_hero.scss';
-import hand_icon from '../Assets/hand_icon.png';
-import hero_image from '../Assets/hero_image.png';
+import hero_image from '../Assets/Banners/hero_image.png';
 
 function Hero() {
     return (
@@ -11,7 +10,6 @@ function Hero() {
                 <div>
                     <div className="hero__left-hand-icon">
                         <p>New</p>
-                        <img src={hand_icon} alt="" />
                     </div>
                     <p>Collection</p>
                     <p>For everyone</p>

@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import '../Styles/Layouts/_cartitems.scss';
 import { ShopContext } from '../Context/ShopContext';
-import remove_icon from '../Assets/cart_cross_icon.png';
+import remove_icon from '../Assets/Icons/cart_cross_icon.png';
 
 function CartItems() {
 

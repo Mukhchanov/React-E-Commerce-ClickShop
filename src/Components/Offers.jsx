@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Styles/Layouts/_offers.scss';
-import exclusive_image from '../Assets/exclusive_image.png';
+import exclusive_image from '../Assets/Banners/exclusive_image.png';
 
 function Offers() {
     return (

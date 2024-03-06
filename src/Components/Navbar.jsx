@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import '../Styles/Layouts/_navbar.scss';
-import logo from '../Assets/logo.png';
-import cart_icon from '../Assets/cart-icon.png';
+import logo from '../Assets/Icons/logo.png';
+import cart_icon from '../Assets/Icons/cart-icon.png';
 import { Link } from 'react-router-dom';
 import { ShopContext } from '../Context/ShopContext';
 

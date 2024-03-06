@@ -11,10 +11,10 @@ function LoginSignup() {
                     <input type="email" placeholder='Your Email Address' required/>
                     <input type="password" placeholder='Password' required/>
                 </div>
-                <button>Continue</button>
+                <button type='submit'>Continue</button>
                 <p className='loginsignup__login'>Already have an account? <span>Login here</span></p>
                 <div className='loginsignup__agree'>
-                    <input type="checkbox" name="" id=""/>
+                    <input type="checkbox" />
                     <p>By continuing, i agree to the terms of use & privacy policy.</p>
                 </div>
             </div>

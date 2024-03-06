@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import '../Styles/Layouts/_productdisplay.scss';
-import star_icon from '../Assets/star_icon.png';
-import star_dull_icon from '../Assets/star_dull_icon.png';
+import star_icon from '../Assets/Icons/star_icon.png';
+import star_dull_icon from '../Assets/Icons/star_dull_icon.png';
 import { ShopContext } from '../Context/ShopContext';
 
 function ProductDisplay(props) {

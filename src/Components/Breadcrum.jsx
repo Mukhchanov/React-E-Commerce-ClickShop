@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Styles/Layouts/_breadcrum.scss';
-import arrow_icon from '../Assets/breadcrum_arrow.png';
+import arrow_icon from '../Assets/Icons/breadcrum_arrow.png';
 
 function Breadcrum(props) {
 

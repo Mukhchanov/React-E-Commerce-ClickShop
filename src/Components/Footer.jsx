@@ -1,9 +1,9 @@
 import React from 'react';
 import '../Styles/Layouts/_footer.scss';
-import logo from '../Assets/logo.png';
-import instagram_icon from '../Assets/instagram_icon.png';
-import pintester_icon from '../Assets/pintester_icon.png';
-import whatsapp_icon from '../Assets/whatsapp_icon.png';
+import logo from '../Assets/Icons/logo.png';
+import instagram_icon from '../Assets/Icons/instagram_icon.png';
+import pintester_icon from '../Assets/Icons/pintester_icon.png';
+import whatsapp_icon from '../Assets/Icons/whatsapp_icon.png';
 
 function Footer() {
     return (
