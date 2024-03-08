@@ -1,4 +1,9 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@import "./base";
+@import "./Layouts/navbar";
+
 
 
 * {
@@ -16,4 +21,3 @@
 .container-fluid {
     padding: 50px 130px;
 }
-
