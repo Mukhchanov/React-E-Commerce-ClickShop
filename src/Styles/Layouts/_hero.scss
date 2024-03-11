@@ -13,17 +13,15 @@
             font-weight: 600;
         }
         &-hand-icon {
+            border-radius: 10px;
             display: flex;
             align-items: center;
             gap: 20px;
-            img {
-                width: 50px;
-            }
         }
         p {
             color: #171717;
-            font-size: 30px;
-            font-weight: 700;
+            font-size: 40px;
+            font-weight: bold;
         }
         &-latest-btn {
             gap: 15px;

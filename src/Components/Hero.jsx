@@ -9,10 +9,8 @@ function Hero() {
                 <h2>NEW ARRIVALS ONLY</h2>
                 <div>
                     <div className="hero__left-hand-icon">
-                        <p>New</p>
+                        <p>New Collection for Everyone</p>
                     </div>
-                    <p>Collection</p>
-                    <p>For everyone</p>
                 </div>
                 <div className="hero__left-latest-btn">
                     <button>Latest Collection</button>
