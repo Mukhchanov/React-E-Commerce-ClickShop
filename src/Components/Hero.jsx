@@ -7,10 +7,8 @@ function Hero() {
         <div className='hero container-fluid'>
             <div className="hero__left">
                 <h2>NEW ARRIVALS ONLY</h2>
-                <div>
-                    <div className="hero__left-hand-icon">
-                        <p>New Collection for Everyone</p>
-                    </div>
+                <div className="hero__left-text">
+                    <p>New Collection for Everyone</p>
                 </div>
                 <div className="hero__left-latest-btn">
                     <button>Latest Collection</button>

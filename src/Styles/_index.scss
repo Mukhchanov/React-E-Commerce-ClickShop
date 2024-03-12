@@ -4,8 +4,6 @@
 @import "./base";
 @import "./Layouts/navbar";
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -14,10 +12,10 @@
 }
 
 .container {
-    margin-top: 20px;
     padding: 0 50px;
 }
 
 .container-fluid {
-    padding: 50px 130px;
+    padding: 50px 110px;
 }
+

@@ -2,9 +2,26 @@
     padding: 20px;
     display: flex;
     justify-content: center;
+    width: 100%;
     h2 {
         font-size: 30px;
         padding-bottom: 20px;
         border-bottom: 3px solid #7A24B4;
+    }
+}
+
+@media(max-width: 768px) {
+    .section-title {
+        h2 {
+            font-size: 24px;
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    .section-title {
+        h2 {
+            font-size: 16px
+        }
     }
 }
