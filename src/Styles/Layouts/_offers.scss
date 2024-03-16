@@ -40,6 +40,58 @@
         align-items: center;
         justify-content: flex-end;
         position: relative;
-        top: 50px;
+        overflow: hidden;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width: 992px) {
+    .offers {
+        &__left {
+            h1 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 20px;
+            }
+            button {
+                padding: 10px 20px;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .offers {
+        display: block;
+        &__left {
+            align-items: center;
+            text-align: center;
+            button {
+                align-self: center;
+            }
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    .offers {
+        &.container-fluid {
+            padding: 40px;
+        }
+        &__left {
+            h1 {
+                font-size: 22px;
+            }
+            p {
+                font-size: 14px;
+            }
+            button {
+                font-size: 13px;
+            }
+        }
     }
 }

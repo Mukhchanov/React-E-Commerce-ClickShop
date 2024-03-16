@@ -10,3 +10,27 @@
         padding: 0 0 50px 0;
     }
 }
+
+@media(max-width: 992px) {
+    .new-collections {
+        .collections {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .new-collections {
+        .collections {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    .new-collections {
+        .collections {
+            grid-template-columns: 1fr;
+        }
+    }
+}

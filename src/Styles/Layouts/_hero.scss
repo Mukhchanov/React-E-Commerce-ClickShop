@@ -63,7 +63,7 @@
             }
             &-text {
                 p {
-                    font-size: 25px;
+                    font-size: 30px;
                 }
             }
             &-latest-btn {
@@ -83,20 +83,12 @@
             width: 100%;
             h2 {
                 align-self: center;
-                font-size: 18px;
             }
             div {
                 align-self: center;
             }
             &-text {
-                p {
-                    font-size: 23px;
-                }
-            }
-            &-latest-btn {
-                button {
-                    font-size: 16px;
-                }
+                text-align: center;
             }
         }
         &__right {
@@ -119,7 +111,7 @@
             }
             &-text {
                 p {
-                    font-size: 16px;
+                    font-size: 22px;
                 }
             }
             &-latest-btn {

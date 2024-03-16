@@ -10,6 +10,14 @@
     }
 }
 
+@media(max-width: 992px) {
+    .popular {
+        &__item {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}
+
 @media(max-width: 768px) {
     .popular {
         &__item {
