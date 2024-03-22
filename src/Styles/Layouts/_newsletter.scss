@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
     gap: 30%;
     h1 {
@@ -21,13 +22,11 @@
         align-items: center;
         justify-content: space-between;
         background: #fff;
-        width: 730px;
-        height: 70px;
+        width: 100%;
         border-radius: 80px;
         border: 2px solid #e3e3e3;
         margin-top: 50px;
         input {
-            width: 500px;
             margin-left: 30px;
             border: none;
             outline: none;
@@ -44,6 +43,46 @@
             &:hover {
                 background-color: #7A24B4;
                 color: #fff;
+            }
+        }
+    }
+}
+
+@media(max-width: 992px) {
+    .newsletter {
+        h1 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 18px;
+        }
+        div {
+            button {
+                padding: 10px 20px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    .newsletter {
+        &.container-fluid {
+            padding: 40px;
+        }
+        h1 {
+            font-size: 22px;
+        }
+        p {
+            font-size: 14px;
+        }
+        div {
+            input {
+                font-size: 10px;
+                margin-left: 10px;
+            }
+            button {
+                font-size: 12px;
             }
         }
     }
