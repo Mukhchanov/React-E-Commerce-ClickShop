@@ -2,7 +2,7 @@
     .banner-box {
         position: relative;
         background: linear-gradient(0deg, #B087F7, #e1ffea22 70%);
-        height: 500px;
+        width: 100%;
         img {
             position: relative;
             width: 100%;
@@ -51,5 +51,26 @@
         background-color: #787878;
         font-size: 18px;
         font-weight: 500;
+    }
+}
+
+@media(max-width: 992px) {
+    .shop-category-products {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+@media(max-width: 768px) {
+    .shop-category-products {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+@media(max-width: 576px) {
+    .shop-category-products {
+        grid-template-columns: 1fr;
+        gap: 30px;
     }
 }

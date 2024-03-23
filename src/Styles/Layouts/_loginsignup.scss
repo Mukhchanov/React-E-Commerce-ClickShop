@@ -1,11 +1,11 @@
 .loginsignup {
     width: 100%;
     height: min-content;
-    background: linear-gradient(180deg, #B087F7, #CECECE);
+    background: linear-gradient(180deg, #b087f7, #cecece00);
     padding: 50px 0;
     position: relative;
     &__container {
-        width: 580px;
+        width: 80%;
         height: min-content;
         background-color: #fff;
         margin: auto;
@@ -63,5 +63,34 @@
         color: #5c5c5c;
         font-size: 14px;
         font-weight: 500;
+    }
+}
+
+@media(max-width: 768px) {
+    .loginsignup {
+        h1 {
+            font-size: 25px;
+        }
+        &__container {
+            &-fields {
+                input {
+                    font-size: 14px;
+                }
+            }
+            button {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media(max-width: 578px) {
+    .loginsignup {
+        &__login {
+            font-size: 14px;
+        }
+        &__agree {
+            font-size: 14px;
+        }
     }
 }

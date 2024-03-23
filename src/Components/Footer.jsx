@@ -10,7 +10,7 @@ function Footer() {
         <div className='footer'>
             <div className="footer__logo">
                 <img src={logo} alt="" />
-                <h2>CLickShop</h2>
+                <h2>ClickShop</h2>
             </div>
             <ul className='footer__list'>
                 <li>Company</li>
