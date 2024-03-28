@@ -23,7 +23,7 @@ function CartItems() {
                     <img src={e.image} className='carticon-product-icon' />
                     <p>{e.name}</p>
                     <p>${e.new_price}</p>
-                    <button className='cartitems__format-quantity'>{cartItems[e.id]}</button>
+                    <p className='cartitems__format-quantity'>{cartItems[e.id]}</p>
                     <p>${e.new_price * cartItems[e.id]}</p>
                     <img className='cartitems-remove-icon' src={remove_icon} onClick={() => {removeFromCart(e.id)}} />
                 </div>
