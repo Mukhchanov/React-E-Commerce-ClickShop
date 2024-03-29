@@ -8,7 +8,7 @@ function CartItems() {
     const {getTotalCartAmount, all_product, cartItems, removeFromCart} = useContext(ShopContext);
 
     return (
-        <div className='cartitems'>
+        <div className='cartitems container'>
             <div className="cartitems__format-main">
                 <p>Products</p>
                 <p>Title</p>
@@ -22,7 +22,7 @@ function CartItems() {
                     return <div key={i} className="cartitems__format cartitems__format-main">
                     <img src={e.image} className='carticon-product-icon' />
                     <p>{e.name}</p>
-                    <p>${e.new_price}</p>
+                    <p className='cartitems__format-price'>${e.new_price}</p>
                     <p className='cartitems__format-quantity'>{cartItems[e.id]}</p>
                     <p>${e.new_price * cartItems[e.id]}</p>
                     <img className='cartitems-remove-icon' src={remove_icon} onClick={() => {removeFromCart(e.id)}} />

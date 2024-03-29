@@ -23,7 +23,7 @@ function ProductDisplay(props) {
                 </div>
             </div>
             <div className="productdisplay__right">
-                <h1>{product.name}</h1>
+                <h1 className='productdisplay__right-header'>{product.name}</h1>
                 <div className="productdisplay__right-stars">
                     <img src={star_icon} />
                     <img src={star_icon} />

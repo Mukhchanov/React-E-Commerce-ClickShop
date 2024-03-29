@@ -1,5 +1,18 @@
 .cartitems {
-    margin: 50px 100px;
+    margin-top: 50px;
+        &__format {
+            grid-template-columns: 0.5fr 3fr 1fr 1fr 1fr 1fr;
+            .carticon-product-icon {
+            width: 80px;
+        }
+        &-quantity {
+            margin-left: 40px;
+        }
+        .cartitems-remove-icon {
+            cursor: pointer;
+            margin: auto;
+        }
+    }
     &__format-main {
         display: grid;
         grid-template-columns: 0.5fr 3fr 1fr 1fr 1fr 1fr;
@@ -9,19 +22,6 @@
         color: #454545;
         font-size: 18px;
         border-bottom: 2px solid gray;
-    }
-    &__format {
-        grid-template-columns: 0.5fr 3fr 1fr 1fr 1fr 1fr;
-        .carticon-product-icon {
-            width: 80px;
-        }
-        &-quantity {
-            background-color: #fff;
-        }
-        .cartitems-remove-icon {
-            cursor: pointer;
-            margin: auto;
-        }
     }
     &__down {
         margin-top: 20px;
@@ -38,8 +38,7 @@
                 padding: 15px 0;
             }
             button {
-                width: 200px;
-                height: 60px;
+                padding: 20px 0px;
                 outline: none;
                 border: none;
                 background-color: #ff5a5a;
@@ -87,7 +86,7 @@
             grid-template-columns: 0.5fr 3fr 0.5fr 0.5fr 0.5fr 0.5fr;
             padding: 10px 0;
             &-quantity {
-                margin: auto;
+                margin-left: 30px;
             }
             p {
                 font-size: 12px;
@@ -101,18 +100,66 @@
             font-size: 14px;
             gap: 18px;
         }
+        &__down {
+            display: block;
+            &-total {
+                h1 {
+                    font-size: 24px;
+                }
+                button {
+                    font-size: 14px;
+                }
+            }
+            &-total-item {
+                p {
+                    font-size: 12px;
+                }
+                h3 {
+                    font-size: 14px;
+                }
+            }
+        }
+        &__promocode {
+            margin-top: 50px;
+        }
     }
 }
 
 @media(max-width: 768px) {
     .cartitems {
         &__format {
+             &-quantity {
+                margin-left: 20px;
+            }
             p {
                 font-size: 10px;
             }
         }
         &__format-main {
             font-size: 10px;
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    .cartitems {
+        &__format {
+            grid-template-columns: 3fr 3fr 3fr;
+            &-price {
+                text-align: center;
+            }
+            &-quantity {
+                margin-left: 25px;
+            }
+        }
+        &-d-none {
+            display: none;
+        }
+        &__promocode-box {
+            button {
+                font-size: 12px;
+                padding: 0 20px;
+            }
         }
     }
 }
