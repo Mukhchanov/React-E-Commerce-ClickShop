@@ -2,15 +2,38 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    height: 600px;
     h1 {
         color: #171717;
         font-size: 30px;
     }
     &__item {
         margin-top: 40px;
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 20px;
+    }
+}
+
+@media(max-width: 992px) {
+    .relatedproducts {
+        &__item {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .relatedproducts {
+        &__item {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    .relatedproducts {
+        &__item {
+            grid-template-columns: 1fr;
+        }
     }
 }
